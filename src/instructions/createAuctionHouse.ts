@@ -2,10 +2,10 @@ import {
   PublicKey,
   PublicKeyInitData,
   TransactionInstruction,
-} from "@solana/web3.js";
-import { NATIVE_MINT } from "@solana/spl-token";
+} from "@safecoin/web3.js";
+import { NATIVE_MINT } from "@safecoin/safe-token";
 import { Wallet } from "@metaplex/js";
-import { AuctionHouseProgram } from "@metaplex-foundation/mpl-auction-house";
+import { AuctionHouseProgram } from "@leda-mint-io/lpl-auction-house";
 
 const { createCreateAuctionHouseInstruction } =
   AuctionHouseProgram.instructions;

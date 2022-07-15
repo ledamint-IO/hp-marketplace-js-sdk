@@ -1,4 +1,4 @@
-import { clusterApiUrl, Connection, Keypair } from '@solana/web3.js'
+import { clusterApiUrl, Connection, Keypair } from '@safecoin/web3.js'
 import { NodeWallet } from '@metaplex/js'
 import { initMarketplaceSDK, MarketplaceClient } from '../marketplace'
 import { OffersClient } from '../offers'

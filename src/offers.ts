@@ -1,5 +1,5 @@
 import { Client } from './client'
-import { AuctionHouseProgram } from '@metaplex-foundation/mpl-auction-house'
+import { AuctionHouseProgram } from '@leda-mint-io/lpl-auction-house'
 import {
   SYSVAR_INSTRUCTIONS_PUBKEY,
   PublicKey,
@@ -8,14 +8,14 @@ import {
   TransactionInstruction,
   Keypair,
   AccountMeta,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { AuctionHouse, Nft, Offer } from './types'
 import {
   TOKEN_PROGRAM_ID,
   NATIVE_MINT,
   Token,
   ASSOCIATED_TOKEN_PROGRAM_ID,
-} from '@solana/spl-token'
+} from '@safecoin/safe-token'
 import { Wallet } from '@metaplex/js'
 import { PendingTransaction } from './transaction'
 

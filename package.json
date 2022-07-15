@@ -1,7 +1,7 @@
 {
-  "name": "@holaplex/marketplace-js-sdk",
+  "name": "@ledamint/hp-marketplace-js-sdk",
   "version": "0.2.1",
-  "description": "Holaplex Marketplace Standard Actions for the Metaplex Auction House program",
+  "description": "Ledaplace Standard Actions for the Ledamint Auction House program",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "files": [
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holaplex/marketplace-js-sdk.git"
+    "url": "git+https://github.com/ledamint-IO/hp-marketplace-js-sdk.git"
   },
   "keywords": [
     "solana",
     "metaplex",
     "holaplex"
   ],
-  "author": "Holaplex Engineering <hola@holaplex.com>",
+  "author": "Ledaplace Engineering <hola@holaplex.com>",
   "license": "AGPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/holaplex/marketplace-js-sdk/issues"
+    "url": "ttps://github.com/ledamint-IO/hp-marketplace-js-sdk/issues"
   },
-  "homepage": "https://github.com/holaplex/marketplace-js-sdk#readme",
+  "homepage": "ttps://github.com/ledamint-IO/hp-marketplace-js-sdk#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
@@ -33,11 +33,11 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@metaplex-foundation/mpl-auction-house": "^1.1.1",
+    "@leda-mint-io/lpl-auction-house": "^1.1.1",
     "@metaplex/js": "^4.12.0",
-    "@solana/spl-token": "0.1.8",
-    "@solana/wallet-adapter-react": "^0.15.4",
-    "@solana/web3.js": "1.37.1",
+    "@safecoin/safe-token": "^0.1.7-b",
+    "@araviel/wallet-adapter-react": "^0.13.1",
+    "@safecoin/web3.js": "^1.29.4",
     "bn.js": "^5.2.0"
   }
 }

@@ -19,7 +19,7 @@ Examples of using the sdk from different javascript based development environmen
 
 ```typescript
 import { initMarketplaceSDK, AuctionHouse, Nft } from '@holaplex/marketplace-js-sdk'
-import { useConnection, useWallet } from '@solana/wallet-adapter-react'
+import { useConnection, useWallet } from '@araviel/wallet-adapter-react'
 
 interface PageProps {
   auctionHouse: AuctionHouse

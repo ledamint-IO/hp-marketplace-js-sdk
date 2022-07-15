@@ -5,7 +5,7 @@ import {
   TransactionInstruction,
   TransactionInstructionCtorFields,
   Keypair,
-} from '@solana/web3.js'
+} from '@safecoin/web3.js'
 import { Wallet } from '@metaplex/js'
 
 export type Tx =
