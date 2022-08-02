@@ -1,5 +1,5 @@
 import { Connection } from '@safecoin/web3.js'
-import { Wallet } from '@metaplex/js'
+import { Wallet } from '@leda-mint-io/js'
 import { TransactionBuilder } from './transaction'
 
 export abstract class Client {

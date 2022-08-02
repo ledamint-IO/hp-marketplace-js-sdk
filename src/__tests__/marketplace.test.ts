@@ -1,5 +1,5 @@
 import { clusterApiUrl, Connection, Keypair } from '@safecoin/web3.js'
-import { NodeWallet } from '@metaplex/js'
+import { NodeWallet } from '@leda-mint-io/js'
 import { initMarketplaceSDK, MarketplaceClient } from '../marketplace'
 import { OffersClient } from '../offers'
 import { ListingsClient } from '../listings'

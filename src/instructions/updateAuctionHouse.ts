@@ -4,7 +4,7 @@ import {
   TransactionInstruction,
 } from '@safecoin/web3.js'
 import { NATIVE_MINT } from '@safecoin/safe-token'
-import { Wallet } from '@metaplex/js'
+import { Wallet } from '@leda-mint-io/js'
 import { AuctionHouseProgram } from '@leda-mint-io/lpl-auction-house'
 
 const { createUpdateAuctionHouseInstruction } = AuctionHouseProgram.instructions

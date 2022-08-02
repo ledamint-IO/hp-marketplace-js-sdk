@@ -18,8 +18,8 @@ Examples of using the sdk from different javascript based development environmen
 ### React
 
 ```typescript
-import { initMarketplaceSDK, AuctionHouse, Nft } from '@holaplex/marketplace-js-sdk'
-import { useConnection, useWallet } from '@araviel/wallet-adapter-react'
+import { initMarketplaceSDK, AuctionHouse, Nft } from '@leda-mint-io/marketplace-js-sdk'
+import { useConnection, useWallet } from '@j0nnyboi/wallet-adapter-react'
 
 interface PageProps {
   auctionHouse: AuctionHouse

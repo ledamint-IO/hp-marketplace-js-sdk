@@ -1,5 +1,5 @@
 import { Connection, PublicKey, Transaction } from '@safecoin/web3.js'
-import { programs, Wallet } from '@metaplex/js'
+import { programs, Wallet } from '@leda-mint-io/js'
 import { createAuctionHouse, updateAuctionHouse } from './instructions'
 import { MarktplaceSettingsPayload, AuctionHouse } from './types'
 import ipfsSDK from './ipfs'

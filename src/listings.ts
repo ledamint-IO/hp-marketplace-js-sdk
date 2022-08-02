@@ -7,7 +7,7 @@ import {
   TransactionInstruction,
   AccountMeta,
 } from '@safecoin/web3.js'
-import { Wallet } from '@metaplex/js'
+import { Wallet } from '@leda-mint-io/js'
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
   NATIVE_MINT,

@@ -8,7 +8,7 @@ import {
   Token,
   ASSOCIATED_TOKEN_PROGRAM_ID,
 } from '@safecoin/safe-token'
-import { Wallet } from '@metaplex/js'
+import { Wallet } from '@leda-mint-io/js'
 import { PendingTransaction } from './transaction'
 
 const { instructions } = AuctionHouseProgram
